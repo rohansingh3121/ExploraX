@@ -3,18 +3,30 @@ Q2)  COLOR CODING OF DIFFERENT SERVICES BE SAME OR DIFFERENT?????
 Q3)  SHOULD WE USE COMING SOON FOR THE SITE YET TO BE DEVELOPED AND JUST LAUNCH THE SITE??
 
 
+TODO MAIN
+=> 8 Individual pages of news using webdev2.0        Tanmay/prasoon
+=> Insert Data in each page                          Tanmay/prasoon/subham
+=> Linking of data to article page                   shailendra
+=> Social Media                                      Tushar
+=> Newsarticle page                                  Rohan
+=> Dropping 
+
 INDEX PAGE============================================================================================
 => Reducing the length of Header Image               @rohan
 => Caption for services @News @Kuora @KIITUpdate     @tanmay
 => Send Message Button backend or Gmail              @after-domain
 => Services Button in footer                         @after-domain
-=> Join Us Page                                      @prasoon
+=> About Us Page                                     @prasoon
 => Social Media referencing                          @after-domain
 => Adjusting Logo                                    @rohan
-=> Changing color of text in services (Eg Changing color of "News" from yellow to black)    @rohan
+=> Changing color of text in services (Eg Changing color of "News" from yellow to black)    @rohan - done
 => News logo                                         @subham - DONE
 
-                    
+IDEAS
+=> KUORA
+=> Gallery
+
+
 Shailendre   Sports Covid19
 Subham       Education Entertainment
 tanmay       National International
@@ -22,14 +34,12 @@ Prasoon      Lifestyle Technology
 
 
 
-MAIN NEWS PAGE    (TO BE MADE)   ========================================================================
-Postponed Indefinately
-=> Color Coding                                      
-=> Index text
-=> Header Image Text (Details written in code )            
-=> Changing social media icons in index                    Subham       Education Entertainment
-=> Linking News                                            tanmay       National International
-=> Proper Tile of News                                     Prasoon      Lifestyle 
+MAIN NEWS PAGE     ========================================================================
+=> Background Image
+=> Text and caption 
+=> Font color & name
+
+
 
 NEWS ARTICLE PAGE
 => Adding suggestions column at the end just like cards in the TheThrills Page
