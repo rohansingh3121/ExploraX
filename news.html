@@ -1,1190 +1,2198 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
+
+  <!-- Required meta tags always come first --->
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>ExploraX</title>
-  <!-- MDB icon -->
-  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
-  <!-- Font Awesome -->
+  <title>Material Design Bootstrap Template</title>
+  <!-- Font Awesome --->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Google Fonts Roboto -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Material Design Bootstrap -->
-  <link rel="stylesheet" href="css/mdb.min.css">
-  <!-- Your custom styles (optional) -->
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-      .navbar {
-    z-index: 1040;
-  }
-  .side-nav {
-    margin-top: 57px !important;
-  }
+  <!-- Bootstrap core CSS --->
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap --->
+  <link href="../../css/mdb.min.css" rel="stylesheet">
 
-  @media (min-width: 1200px){
-  .fixed-sn main {
-      margin-left: 20% !important;
-      margin-right: 20% !important;
-    }
-  }
-  </style>
 </head>
 
-<body class="fixed-sn light-blue-skin">
-<!-- Start your project here--> 
+<body class="fixed-sn homepage-v5">
 
-<!-- Double Navigation with fixed SideNav under fixed Navbar -->
-    <!--Double navigation-->
-    <header>
-      <!-- Sidebar navigation -->
-      <div id="slide-out" class="side-nav sn-bg-4 fixed">
-        <ul class="custom-scrollbar">
-          <!-- Logo -->
-          <li>
-            <div class="logo-wrapper waves-light">
-              <a href="#"><img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" class="img-fluid flex-center"></a>
-            </div>
-          </li>
-          <!--/. Logo -->
-          <!--Social-->
-          <li>
-            <ul class="social">
-              <li><a href="#" class="icons-sm fb-ic"><i class="fab fa-facebook"> </i></a></li>
-              <li><a href="#" class="icons-sm pin-ic"><i class="fab fa-pinterest"> </i></a></li>
-              <li><a href="#" class="icons-sm gplus-ic"><i class="fab fa-google-plus"> </i></a></li>
-              <li><a href="#" class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a></li>
-            </ul>
-          </li>
-          <!--/Social-->
-          <!--Search Form-->
-          <li>
-            <form class="search-form" role="search">
-              <div class="form-group md-form mt-0 pt-1 waves-light">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-            </form>
-          </li>
-          <!--/.Search Form-->
-          <!-- Side navigation links -->
-          <li>
-            <ul class="collapsible collapsible-accordion">
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i> Submit
-                  blog<i class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="#" class="waves-effect">Submit listing</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Registration form</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-hand-pointer"></i>
-                  Instruction<i class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="#" class="waves-effect">For bloggers</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">For authors</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-eye"></i> About<i class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="#" class="waves-effect">Introduction</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Monthly meetings</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-envelope"></i> Contact me<i
-                    class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a href="#" class="waves-effect">FAQ</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Write a message</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">FAQ</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Write a message</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">FAQ</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Write a message</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">FAQ</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Write a message</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <!--/. Side navigation links -->
-        </ul>
-        <div class="sidenav-bg mask-strong"></div>
-      </div>
-      <!--/. Sidebar navigation -->
-      <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg double-nav">
-        <!-- SideNav slide-out button -->
-        <div class="float-left">
-          <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
-        </div>
-        <!-- Breadcrumb-->
-        <div class="breadcrumb-dn mr-auto">
-          <p>Material Design for Bootstrap</p>
-        </div>
-        <ul class="nav navbar-nav nav-flex-icons ml-auto">
-          <li class="nav-item">
-            <a class="nav-link"><i class="fa fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fa fa-comments-o"></i> <span class="clearfix d-none d-sm-inline-block">Support</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fa fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Account</span></a>
-          </li>
+  <!-- Navigation --->
+  <header>
+
+    <!-- Navbar --->
+    <nav class="navbar navbar-expand-lg navbar-dark stylish-color-dark">
+
+      <!-- Navbar brand --->
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <!-- Collapse button --->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span></button>
+
+      <!-- Collapsible content --->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Links --->
+        <ul class="navbar-nav mr-auto">
+
+          <!-- Dropdown --->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Homepages</a>
+
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+
+              <a class="dropdown-item" href="../homepage/v-1.html">V1</a>
+
+              <a class="dropdown-item" href="../homepage/v-2.html">V2</a>
+
+              <a class="dropdown-item" href="../homepage/v-3.html">V3</a>
+
+              <a class="dropdown-item" href="../homepage/v-4.html">V4</a>
+
+              <a class="dropdown-item" href="../homepage/v-5.html">V5</a>
+
             </div>
+
           </li>
+
+          <!-- Dropdown --->
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Postpages</a>
+
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+
+              <a class="dropdown-item" href="../postpage/v-1.html">V1</a>
+
+              <a class="dropdown-item" href="../postpage/v-2.html">V2</a>
+
+              <a class="dropdown-item" href="../postpage/v-3.html">V3</a>
+
+              <a class="dropdown-item" href="../postpage/v-4.html">V4</a>
+
+              <a class="dropdown-item" href="../postpage/v-5.html">V5</a>
+
+            </div>
+
+          </li>
+
         </ul>
-      </nav>
-      <!-- /.Navbar -->
-    </header>
-    <!--/.Double navigation-->
-  
+        <!-- Links --->
 
-    <br> <br> <br>
-    <!--Main Layout-->
-    <div style="padding-left: 242px; padding-right: 2px;">
-      <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-    <li data-target="#carousel-example-2" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-          alt="First slide">
-        <div class="mask rgba-black-light"></div>
+        <!-- Search form --->
+        <form class="form-inline">
+
+          <div class="md-form my-0">
+
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+
+          </div>
+
+        </form>
+
       </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Light mask</h3>
-        <p>First text</p>
+      <!-- Collapsible content --->
+
+    </nav>
+
+    <!-- Navbar --->
+  </header>
+  <!-- Navigation --->
+
+  <!-- Main layout --->
+  <main>
+
+    <div class="container-fluid">
+
+      <!-- Magazine --->
+      <div class="row mt-2">
+
+        <!-- Main news --->
+        <div class="col-xl-8 col-md-12">
+
+          <!-- Section: Magazine posts --->
+          <section class="section extra-margins mt-2">
+
+            <h4 class="font-weight-bold"><strong>LATESTS NEWS</strong></h4>
+
+            <hr class="red title-hr">
+
+            <!-- Carousel Wrapper --->
+            <div id="carousel-example-2" class="carousel slide carousel-fade my-4 z-depth-1" data-ride="carousel">
+
+              <!-- Indicators --->
+              <ol class="carousel-indicators">
+
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+
+              </ol>
+              <!-- Indicators --->
+
+              <!-- Slides --->
+              <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active">
+
+                  <div class="view">
+
+                    <img class="d-block w-100 rounded" src="https://mdbootstrap.com/img/Photos/Slides/img%20(140).jpg"
+                      alt="First slide">
+
+                    <div class="mask rgba-black-light"></div>
+
+                  </div>
+
+                  <div class="carousel-caption">
+
+                    <h3 class="h3-responsive font-weight-bold">Title of the news</h3>
+
+                    <p>First text</p>
+
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                  <!-- Mask color --->
+                  <div class="view">
+
+                    <img class="d-block w-100 rounded" src="https://mdbootstrap.com/img/Photos/Slides/img%20(112).jpg"
+                      alt="Second slide">
+
+                    <div class="mask rgba-black-light"></div>
+
+                  </div>
+
+                  <div class="carousel-caption">
+
+                    <h3 class="h3-responsive font-weight-bold">Title of the news</h3>
+
+                    <p>Secondary text</p>
+
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                  <!-- Mask color --->
+                  <div class="view rgba-black-slight">
+
+                    <img class="d-block w-100 rounded" src="https://mdbootstrap.com/img/Photos/Slides/img%20(79).jpg"
+                      alt="Third slide">
+
+                    <div class="mask rgba-black-light"></div>
+
+                  </div>
+
+                  <div class="carousel-caption">
+
+                    <h3 class="h3-responsive font-weight-bold">Title of the news</h3>
+
+                    <p>Third text</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- Slides --->
+
+              <!-- Controls --->
+              <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                <span class="sr-only">Previous</span>
+
+              </a>
+
+              <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                <span class="sr-only">Next</span>
+
+              </a>
+              <!-- Controls --->
+
+            </div>
+            <!-- Carousel Wrapper --->
+
+            <!-- Section: Top news --->
+            <section>
+
+              <h4 class="font-weight-bold mt-5"><strong>TOP NEWS</strong></h4>
+
+              <hr class="red title-hr">
+
+              <!-- Grid row --->
+              <div class="row mb-4">
+
+                <!-- Grid column --->
+                <div class="col-md-6 text-left mt-3">
+
+                  <!-- Card --->
+                  <div class="card">
+
+                    <!-- Card image --->
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Others/images/10.jpg" class="card-img-top"
+                        alt="Sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+                    <!-- Card image --->
+
+                    <!-- Card content --->
+                    <div class="card-body">
+
+                      <!-- Title --->
+                      <h4 class="card-title"><strong>Card title</strong></h4>
+
+                      <hr>
+
+                      <!-- Text --->
+                      <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                        of the
+
+                        card's content.
+
+                      </p>
+
+                      <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                        27/08/2017</p>
+
+                      <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                      <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                            class="fas fa-angle-right"></i></a></p>
+
+                    </div>
+                    <!-- Card content --->
+
+                  </div>
+                  <!-- Card --->
+
+                </div>
+                <!-- Grid column --->
+
+                <!-- Grid column --->
+                <div class="col-md-6 text-left mt-3">
+
+                  <!-- Card --->
+                  <div class="card">
+
+                    <!-- Card image --->
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="card-img-top"
+                        alt="Sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+                    <!-- Card image --->
+
+                    <!-- Card content --->
+                    <div class="card-body">
+
+                      <!-- Title --->
+                      <h4 class="card-title"><strong>Card title</strong></h4>
+
+                      <hr>
+
+                      <!-- Text --->
+                      <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                        of the
+
+                        card's content.
+
+                      </p>
+
+                      <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                        27/08/2017</p>
+
+                      <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                      <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                            class="fas fa-angle-right"></i></a></p>
+
+                    </div>
+                    <!-- Card content --->
+
+                  </div>
+                  <!-- Card --->
+
+                </div>
+                <!-- Grid column --->
+
+              </div>
+              <!-- Grid row --->
+
+              <!-- Grid row --->
+              <div class="row mb-4">
+
+                <!-- Grid column --->
+                <div class="col-md-6 text-left mt-3">
+
+                  <!-- Card --->
+                  <div class="card">
+
+                    <!-- Card image --->
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Others/images/3.jpg" class="card-img-top"
+                        alt="Sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+                    <!-- Card image --->
+
+                    <!-- Card content --->
+                    <div class="card-body">
+
+                      <!-- Title --->
+                      <h4 class="card-title"><strong>Card title</strong></h4>
+
+                      <hr>
+
+                      <!-- Text --->
+                      <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                        of the
+
+                        card's content.
+
+                      </p>
+
+                      <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                        27/08/2017</p>
+
+                      <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                      <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                            class="fas fa-angle-right"></i></a></p>
+
+                    </div>
+                    <!-- Card content --->
+
+                  </div>
+                  <!-- Card --->
+
+                </div>
+                <!-- Grid column --->
+
+                <!-- Grid column --->
+                <div class="col-md-6 text-left mt-3">
+
+                  <!-- Card --->
+                  <div class="card">
+
+                    <!-- Card image --->
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Others/images/12.jpg" class="card-img-top"
+                        alt="Sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+                    <!-- Card image --->
+
+                    <!-- Card content --->
+                    <div class="card-body">
+
+                      <!-- Title --->
+                      <h4 class="card-title"><strong>Card title</strong></h4>
+
+                      <hr>
+
+                      <!-- Text --->
+                      <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                        of the
+
+                        card's content.
+
+                      </p>
+
+                      <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                        27/08/2017</p>
+
+                      <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                      <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                            class="fas fa-angle-right"></i></a></p>
+
+                    </div>
+                    <!-- Card content --->
+
+                  </div>
+                  <!-- Card --->
+
+                </div>
+                <!-- Grid column --->
+
+              </div>
+              <!-- Grid row --->
+
+            </section>
+
+            <!-- Section:  Top news --->
+            <h4 class="font-weight-bold mt-5"><strong>SPORT</strong></h4>
+
+            <hr class="red title-hr">
+
+            <!-- Carousel Wrapper --->
+            <div id="carousel-example-3" class="carousel slide carousel-fade my-4 z-depth-1" data-ride="carousel">
+
+              <!-- Indicators --->
+              <ol class="carousel-indicators">
+
+                <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
+
+                <li data-target="#carousel-example-3" data-slide-to="1"></li>
+
+                <li data-target="#carousel-example-3" data-slide-to="2"></li>
+
+              </ol>
+              <!-- Indicators --->
+
+              <!-- Slides --->
+              <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active">
+
+                  <div class="view">
+
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(81).jpg"
+                      alt="First slide">
+
+                    <div class="mask rgba-black-light"></div>
+
+                  </div>
+
+                  <div class="carousel-caption">
+
+                    <h3 class="h3-responsive font-weight-bold">Title of the news</h3>
+
+                    <p>First text</p>
+
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                  <!-- Mask color --->
+                  <div class="view">
+
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(80).jpg"
+                      alt="Second slide">
+
+                    <div class="mask rgba-black-light"></div>
+
+                  </div>
+
+                  <div class="carousel-caption">
+
+                    <h3 class="h3-responsive font-weight-bold">Title of the news</h3>
+
+                    <p>Secondary text</p>
+
+                  </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                  <!-- Mask color --->
+                  <div class="view">
+
+                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(39).jpg"
+                      alt="Third slide">
+
+                    <div class="mask rgba-black-light"></div>
+
+                  </div>
+
+                  <div class="carousel-caption">
+
+                    <h3 class="h3-responsive font-weight-bold">Title of the news</h3>
+
+                    <p>Third text</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <!-- Slides --->
+
+              <!-- Controls --->
+              <a class="carousel-control-prev" href="#carousel-example-3" role="button" data-slide="prev">
+
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                <span class="sr-only">Previous</span>
+
+              </a>
+
+              <a class="carousel-control-next" href="#carousel-example-3" role="button" data-slide="next">
+
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                <span class="sr-only">Next</span>
+
+              </a>
+              <!-- Controls --->
+
+            </div>
+            <!-- Carousel Wrapper --->
+
+            <!-- Grid row --->
+            <div class="row mb-4">
+
+              <!-- Grid column --->
+              <div class="col-md-4 my-3">
+
+                <!-- Card --->
+                <div class="card">
+
+                  <!-- Card image --->
+                  <div class="view overlay">
+
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Sport/6-col/img%20(1).jpg"
+                      class="card-img-top" alt="Sample image">
+
+                    <a>
+
+                      <div class="mask rgba-white-slight"></div>
+
+                    </a>
+
+                  </div>
+                  <!-- Card image --->
+
+                  <!-- Card content --->
+                  <div class="card-body">
+
+                    <!-- Title --->
+                    <h4 class="card-title"><strong>Card title</strong></h4>
+
+                    <hr>
+
+                    <!-- Text --->
+                    <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                      of the card's
+
+                      content.
+
+                    </p>
+
+                    <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                      27/08/2017</p>
+
+                    <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                    <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                          class="fas fa-angle-right"></i></a></p>
+
+                  </div>
+                  <!-- Card content --->
+
+                </div>
+                <!-- Card --->
+
+              </div>
+              <!-- Grid column --->
+
+              <!-- Grid column --->
+              <div class="col-md-4 text-left mt-3">
+
+                <!-- Card --->
+                <div class="card">
+
+                  <!-- Card image --->
+                  <div class="view overlay">
+
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Sport/6-col/img%20(2).jpg"
+                      class="card-img-top" alt="Sample image">
+
+                    <a>
+
+                      <div class="mask rgba-white-slight"></div>
+
+                    </a>
+
+                  </div>
+                  <!-- Card image --->
+
+                  <!-- Card content --->
+                  <div class="card-body">
+
+                    <!-- Title --->
+                    <h4 class="card-title"><strong>Card title</strong></h4>
+
+                    <hr>
+
+                    <!-- Text --->
+                    <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                      of the card's
+
+                      content.
+
+                    </p>
+
+                    <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                      27/08/2017</p>
+
+                    <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                    <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                          class="fas fa-angle-right"></i></a></p>
+
+                  </div>
+                  <!-- Card content --->
+
+                </div>
+                <!-- Card --->
+
+              </div>
+              <!-- Grid column --->
+
+              <!-- Grid column --->
+              <div class="col-md-4 text-left mt-3">
+
+                <!-- Card --->
+                <div class="card">
+
+                  <!-- Card image --->
+                  <div class="view overlay">
+
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Sport/6-col/img%20(3).jpg"
+                      class="card-img-top" alt="Sample image">
+
+                    <a>
+
+                      <div class="mask rgba-white-slight"></div>
+
+                    </a>
+
+                  </div>
+                  <!-- Card image --->
+
+                  <!-- Card content --->
+                  <div class="card-body">
+
+                    <!-- Title --->
+                    <h4 class="card-title"><strong>Card title</strong></h4>
+
+                    <hr>
+
+                    <!-- Text --->
+                    <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                      of the card's
+
+                      content.
+
+                    </p>
+
+                    <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                      27/08/2017</p>
+
+                    <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                    <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                          class="fas fa-angle-right"></i></a></p>
+
+                  </div>
+                  <!-- Card content --->
+
+                </div>
+                <!-- Card --->
+
+              </div>
+              <!-- Grid column --->
+
+            </div>
+
+            <!-- Grid row --->
+            <h4 class="font-weight-bold mt-5"><strong>LIFESTYLE</strong></h4>
+
+            <hr class="red title-hr">
+
+            <!-- Grid row --->
+            <div class="row single-post mb-4">
+
+              <!-- Grid column --->
+              <div class="col-md-6 text-left mt-3">
+
+                <!-- Card --->
+                <div class="card">
+
+                  <!-- Card image --->
+                  <div class="view overlay">
+
+                    <img src="https://mdbootstrap.com/img/Photos/Others/images/1.jpg" class="card-img-top"
+                      alt="Sample image">
+
+                    <a>
+
+                      <div class="mask rgba-white-slight"></div>
+
+                    </a>
+
+                  </div>
+                  <!-- Card image --->
+
+                  <!-- Card content --->
+                  <div class="card-body">
+
+                    <!-- Title --->
+                    <h4 class="card-title"><strong>Card title</strong></h4>
+
+                    <hr>
+
+                    <!-- Text --->
+                    <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                      of the card's
+
+                      content.
+
+                    </p>
+
+                    <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                      27/08/2017</p>
+
+                    <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                    <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                          class="fas fa-angle-right"></i></a></p>
+
+                  </div>
+                  <!-- Card content --->
+
+                </div>
+                <!-- Card --->
+
+              </div>
+              <!-- Grid column --->
+
+              <!-- Grid column --->
+              <div class="col-md-6 text-left mt-3">
+
+                <!-- Card --->
+                <div class="card">
+
+                  <!-- Card image --->
+                  <div class="view overlay">
+
+                    <img src="https://mdbootstrap.com/img/Photos/Others/images/4.jpg" class="card-img-top"
+                      alt="sample image">
+
+                    <a>
+
+                      <div class="mask rgba-white-slight"></div>
+
+                    </a>
+
+                  </div>
+                  <!-- Card image --->
+
+                  <!-- Card content --->
+                  <div class="card-body">
+
+                    <!-- Title --->
+                    <h4 class="card-title"><strong>Card title</strong></h4>
+
+                    <hr>
+
+                    <!-- Text --->
+                    <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk
+
+                      of the card's
+
+                      content.
+
+                    </p>
+
+                    <p class="font-small font-weight-bold dark-grey-text mb-1"><i class="far fa-clock-o"></i>
+
+                      27/08/2017</p>
+
+                    <p class="font-small grey-text mb-0">Anna Smith</p>
+
+                    <p class="text-right mb-0 font-small font-weight-bold"><a>read more <i
+                          class="fas fa-angle-right"></i></a></p>
+
+                  </div>
+                  <!-- Card content --->
+
+                </div>
+                <!-- Card --->
+
+              </div>
+              <!-- Grid column --->
+
+            </div>
+            <!-- Grid row --->
+
+          </section>
+          <!-- Section: Magazine posts --->
+
+          <!-- Pagination dark --->
+          <nav>
+
+            <ul class="pagination pg-dark flex-center pt-4">
+
+              <!-- Arrow left --->
+              <li class="page-item">
+
+                <a class="page-link" aria-label="Previous">
+
+                  <span aria-hidden="true">&laquo;</span>
+
+                  <span class="sr-only">Previous</span>
+
+                </a>
+
+              </li>
+
+              <!-- Numbers --->
+              <li class="page-item active"><a class="page-link">1</a></li>
+
+              <li class="page-item"><a class="page-link">2</a></li>
+
+              <li class="page-item"><a class="page-link">3</a></li>
+
+              <li class="page-item"><a class="page-link">4</a></li>
+
+              <li class="page-item"><a class="page-link">5</a></li>
+
+              <!-- Arrow right --->
+              <li class="page-item">
+
+                <a class="page-link" aria-label="Next">
+
+                  <span aria-hidden="true">&raquo;</span>
+
+                  <span class="sr-only">Next</span>
+
+                </a>
+
+              </li>
+
+            </ul>
+
+          </nav>
+          <!-- Pagination dark grey --->
+
+        </div>
+        <!-- Main news --->
+
+        <!-- Sidebar --->
+        <div class="col-xl-4 col-md-12 widget-column mt-0">
+
+          <!-- Section: Categories --->
+          <section class="section mb-5">
+
+            <h4 class="font-weight-bold mt-2"><strong>CATEGORIES</strong></h4>
+
+            <hr class="red title-hr">
+
+            <ul class="list-group z-depth-1 mt-4">
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                <a>Business</a>
+
+                <span class="badge badge-danger badge-pill">4</span>
+
+              </li>
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                <a>Entertainment</a>
+
+                <span class="badge badge-danger badge-pill">2</span>
+
+              </li>
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                <a>Health</a>
+
+                <span class="badge badge-danger badge-pill">1</span>
+
+              </li>
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                <a>Lifestyle</a>
+
+                <span class="badge badge-danger badge-pill">2</span>
+
+              </li>
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                <a>Photography</a>
+
+                <span class="badge badge-danger badge-pill">1</span>
+
+              </li>
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                <a>Technology</a>
+
+                <span class="badge badge-danger badge-pill">2</span>
+
+              </li>
+
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                <a>Sport</a>
+
+                <span class="badge badge-danger badge-pill">5</span>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+          <!-- Section: Categories --->
+          <h4 class="font-weight-bold"><strong>RECOMMEND POSTS</strong></h4>
+
+          <hr class="red title-hr mb-4">
+
+          <!-- Section: News widget --->
+          <section class="section widget-content mt-5">
+
+            <!-- Nav tabs --->
+            <ul class="nav md-tabs tabs-3 nav-justified widget-tabs mx-0 mdb-color lighten-3" role="tablist">
+
+              <li class="nav-item">
+
+                <a class="nav-link active px-0" data-toggle="tab" href="#panel1" role="tab">RECOMMEND</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                <a class="nav-link" data-toggle="tab" href="#panel2" role="tab">RECENT</a>
+
+              </li>
+
+              <li class="nav-item">
+
+                <a class="nav-link" data-toggle="tab" href="#panel3" role="tab">TOP REVIEWS</a>
+
+              </li>
+
+            </ul>
+
+            <!-- Tab panels --->
+            <div class="tab-content p-0 ml-2">
+
+              <!-- Panel 1 --->
+              <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+
+                <div class="single-post">
+
+                  <!-- First row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="img-fluid"
+                          alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- First row --->
+
+                </div>
+
+                <div class="single-post">
+
+                  <!-- Second row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Others/img%20(43).jpg" class="img-fluid"
+                          alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- Second row --->
+
+                </div>
+
+                <div class="single-post">
+
+                  <!-- Third row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Others/img%20(39).jpg" class="img-fluid"
+                          alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- Third row --->
+
+                </div>
+
+              </div>
+              <!-- Panel 1 --->
+
+              <!-- Panel 2 --->
+              <div class="tab-pane fade" id="panel2" role="tabpanel">
+
+                <div class="single-post">
+
+                  <!-- First row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(85).jpg"
+                          class="img-fluid" alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- First row --->
+
+                </div>
+
+                <div class="single-post">
+
+                  <!-- Second row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(43).jpg"
+                          class="img-fluid" alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- Second row --->
+
+                </div>
+
+                <div class="single-post">
+
+                  <!-- Third row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20(30).jpg"
+                          class="img-fluid" alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- Third row --->
+
+                </div>
+
+              </div>
+              <!-- Panel 2 --->
+
+              <!-- Panel 3 --->
+              <div class="tab-pane fade" id="panel3" role="tabpanel">
+
+                <div class="single-post">
+
+                  <!-- First row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(64).jpg"
+                          class="img-fluid" alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- First row --->
+
+                </div>
+
+                <div class="single-post">
+
+                  <!-- Second row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(76).jpg"
+                          class="img-fluid" alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- Second row --->
+
+                </div>
+
+                <div class="single-post">
+
+                  <!-- Third row --->
+                  <div class="row">
+
+                    <!-- Image --->
+                    <div class="col-4">
+
+                      <div class="view overlay z-depth-1">
+
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(75).jpg"
+                          class="img-fluid" alt="sample image">
+
+                        <a>
+
+                          <div class="mask rgba-white-slight"></div>
+
+                        </a>
+
+                      </div>
+
+                    </div>
+                    <!-- Image --->
+
+                    <!-- Excerpt --->
+                    <div class="col-8">
+
+                      <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                      <div class="post-data">
+
+                        <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                      </div>
+
+                    </div>
+                    <!-- Excerpt --->
+
+                  </div>
+                  <!-- Third row --->
+
+                </div>
+
+              </div>
+              <!-- Panel 3 --->
+
+            </div>
+            <!-- Tab panels --->
+
+          </section>
+          <!-- Section: News widget --->
+
+          <!-- Section: Advertisment --->
+          <section class="section mt-5">
+
+            <h6 class="grey-text text-center mb-3"><strong>- Advertisment -</strong></h6>
+
+            <!-- Jumbotron --->
+            <div class="jumbotron text-center">
+
+              <!-- Title --->
+              <h1 class="card-title h2-responsive mt-2"><strong>Material Design for Bootstrap</strong></h1>
+
+              <!-- Subtitle --->
+              <p class="blue-text mb-4 mt-5 font-weight-bold">Powerful and free Material Design UI KIT</p>
+
+              <!-- Text --->
+              <div class="d-flex justify-content-center">
+
+                <p class="card-text mb-1" style="max-width: 43rem;">Sed ut perspiciatis unde omnis iste natus sit
+
+                  voluptatem accusantium doloremque laudantium,
+
+                  totam rem aperiam.
+
+                </p>
+
+              </div>
+
+              <hr class="my-4">
+
+              <button type="button" class="btn btn-primary btn-sm waves-effect">Buy now <span
+                  class="far fa-gem ml-1"></span></button>
+
+              <button type="button" class="btn btn-outline-primary btn-sm waves-effect">Download <i
+                  class="fas fa-download ml-1"></i></button>
+
+            </div>
+            <!-- Jumbotron --->
+
+          </section>
+          <!-- Section: Advertisment --->
+
+          <!-- Section: Newsletter --->
+          <section class="section mt-5">
+
+            <h4 class="font-weight-bold"><strong>NEWSLETTER</strong></h4>
+
+            <hr class="red title-hr mb-4">
+
+            <!-- Newsletter --->
+            <div class="card z-depth-1 widget-spacing mt-0">
+
+              <div class="card-body">
+
+                <!-- Header --->
+                <div class="text-center">
+
+                  <h4>Subscribe:</h4>
+
+                  <hr class="mt-2">
+
+                </div>
+
+                <!-- Body --->
+                <p class="font-small text-center">We'll write rarely, but only the best content.</p>
+
+                <!-- Body --->
+                <div class="md-form">
+
+                  <i class="fas fa-user prefix grey-text"></i>
+
+                  <input type="text" id="form3" class="form-control">
+
+                  <label for="form3">Your name</label>
+
+                </div>
+
+                <div class="md-form">
+
+                  <i class="fas fa-envelope prefix grey-text"></i>
+
+                  <input type="text" id="form2" class="form-control">
+
+                  <label for="form2">Your email</label>
+
+                </div>
+
+                <div class="text-center">
+
+                  <button class="btn btn-primary">Send</button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </section>
+          <!-- Section: Newsletter --->
+
+          <!-- Section: Gallery --->
+          <section class="section sidebar-imgs mb-5">
+
+            <h4 class="font-weight-bold"><strong>GALLERY</strong></h4>
+
+            <hr class="red title-hr">
+
+            <!-- Grid row --->
+            <div class="row">
+
+              <div class="col-md-12">
+
+                <div id="mdb-lightbox-ui"></div>
+
+                <div class="mdb-lightbox">
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(10).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(10).jpg"
+                        class="img-fluid" alt="sample image">
+
+                    </a>
+
+                  </figure>
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg"
+                        class="img-fluid" alt="sample image" />
+
+                    </a>
+
+                  </figure>
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg"
+                        class="img-fluid" alt="sample image" />
+
+                    </a>
+
+                  </figure>
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/City/12-col/img%20(4).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(4).jpg"
+                        class="img-fluid" alt="sample image" />
+
+                    </a>
+
+                  </figure>
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/City/12-col/img%20(51).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(51).jpg"
+                        class="img-fluid" alt="sample image" />
+
+                    </a>
+
+                  </figure>
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg"
+                        class="img-fluid" alt="sample image" />
+
+                    </a>
+
+                  </figure>
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/People/12-col/img%20(49).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(49).jpg"
+                        class="img-fluid" alt="sample image" />
+
+                    </a>
+
+                  </figure>
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"
+                        class="img-fluid" alt="sample image" />
+
+                    </a>
+
+                  </figure>
+
+                  <figure class="col-md-4 px-1 py-1">
+
+                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/People/12-col/img%20(15).jpg"
+                      data-size="1600x1067">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(15).jpg"
+                        class="img-fluid" alt="sample image" />
+
+                    </a>
+
+                  </figure>
+
+                </div>
+
+              </div>
+
+            </div>
+            <!-- Grid row --->
+
+          </section>
+          <!-- Section: Gallery --->
+
+          <!-- Section: Featured posts --->
+          <section class="section widget-content">
+
+            <!-- Heading --->
+            <h4 class="font-weight-bold pt-2"><strong>FEATURED POSTS</strong></h4>
+
+            <hr class="red title-hr mb-4">
+
+            <!-- Card --->
+            <div class="card card-body pb-0">
+
+              <div class="single-post">
+
+                <!-- Grid row --->
+                <div class="row">
+
+                  <div class="col-4">
+
+                    <!-- Image --->
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(121).jpg"
+                        class="img-fluid z-depth-1 rounded-0" alt="sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+
+                  <!-- Excerpt --->
+                  <div class="col-8">
+
+                    <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                    <div class="post-data">
+
+                      <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 18/08/2017</p>
+
+                    </div>
+
+                  </div>
+                  <!-- Excerpt --->
+
+                </div>
+                <!-- Grid row --->
+
+              </div>
+
+              <div class="single-post">
+
+                <!-- Grid row --->
+                <div class="row">
+
+                  <!-- Image --->
+                  <div class="col-4">
+
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(30).jpg"
+                        class="img-fluid z-depth-1 rounded-0" alt="sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+                  <!-- Image --->
+
+                  <!-- Excerpt --->
+                  <div class="col-8">
+
+                    <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                    <div class="post-data">
+
+                      <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 21/08/2017</p>
+
+                    </div>
+
+                  </div>
+                  <!-- Excerpt --->
+
+                </div>
+                <!-- Grid row --->
+
+              </div>
+
+              <div class="single-post">
+
+                <!-- Grid row --->
+                <div class="row">
+
+                  <!-- Image --->
+                  <div class="col-4">
+
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(118).jpg"
+                        class="img-fluid z-depth-1 rounded-0" alt="sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+                  <!-- Image --->
+
+                  <!-- Excerpt --->
+                  <div class="col-8">
+
+                    <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                    <div class="post-data">
+
+                      <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 27/08/2017</p>
+
+                    </div>
+
+                  </div>
+                  <!-- Excerpt --->
+
+                </div>
+                <!-- Grid row --->
+
+              </div>
+
+              <div class="single-post">
+
+                <!-- Grid row --->
+                <div class="row">
+
+                  <!-- Image --->
+                  <div class="col-4">
+
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(116).jpg"
+                        class="img-fluid z-depth-1 rounded-0" alt="sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+                  <!-- Image --->
+
+                  <!-- Excerpt --->
+                  <div class="col-8">
+
+                    <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                    <div class="post-data">
+
+                      <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 27/08/2017</p>
+
+                    </div>
+
+                  </div>
+                  <!-- Excerpt --->
+
+                </div>
+                <!-- Grid row --->
+
+              </div>
+
+              <div class="single-post">
+
+                <!-- Grid row --->
+                <div class="row">
+
+                  <!-- Image --->
+                  <div class="col-4">
+
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(124).jpg"
+                        class="img-fluid z-depth-1 rounded-0" alt="sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+                  <!-- Image --->
+
+                  <!-- Excerpt --->
+                  <div class="col-8">
+
+                    <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                    <div class="post-data">
+
+                      <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 15/09/2017</p>
+
+                    </div>
+
+                  </div>
+                  <!-- Excerpt --->
+
+                </div>
+                <!-- Grid row --->
+
+              </div>
+
+              <div class="single-post mb-0">
+
+                <!-- Grid row --->
+                <div class="row">
+
+                  <!-- Image --->
+                  <div class="col-4">
+
+                    <div class="view overlay">
+
+                      <img src="https://mdbootstrap.com/img/Photos/Horizontal/People/4-col/img%20(85).jpg"
+                        class="img-fluid z-depth-1 rounded-0" alt="sample image">
+
+                      <a>
+
+                        <div class="mask rgba-white-slight"></div>
+
+                      </a>
+
+                    </div>
+
+                  </div>
+                  <!-- Image --->
+
+                  <!-- Excerpt --->
+                  <div class="col-8">
+
+                    <h6 class="mt-0 mb-3"><a><strong>This is title of the news</strong></a></h6>
+
+                    <div class="post-data">
+
+                      <p class="font-small grey-text mb-0"><i class="far fa-clock-o"></i> 21/08/2018</p>
+
+                    </div>
+
+                  </div>
+                  <!-- Excerpt --->
+
+                </div>
+                <!-- Grid row --->
+
+              </div>
+
+            </div>
+
+          </section>
+          <!-- Section: Featured posts --->
+
+        </div>
+        <!-- Sidebar --->
+
       </div>
+      <!-- Magazine --->
+
     </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-          alt="Second slide">
-        <div class="mask rgba-black-strong"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Strong mask</h3>
-        <p>Secondary text</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
-          alt="Third slide">
-        <div class="mask rgba-black-slight"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Slight mask</h3>
-        <p>Third text</p>
-      </div>
-    </div>
-  </div>
-  <!--/.Slides-->
-  <!--Controls-->
-  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <!--/.Controls-->
-</div>
-<!--/.Carousel Wrapper-->
 
+  </main>
+  <!-- Main layout --->
 
-<!-- Technology Heading -->
-<br>
-<nav class="navbar navbar-dark stylish-color-dark justify-content-center">
-  <a class="navbar-brand" href="./tech.html">Technology</a>
-</nav>
-<!-- Technology Heading -->
+  <!-- Footer --->
+  <footer class="page-footer stylish-color-dark mt-4 pt-4">
 
+    <!-- Footer Links --->
+    <div class="container-fluid">
 
-<!--Carousel Wrapper-->
-<div id="multi-item-1" class="carousel slide carousel-multi-item" data-ride="carousel">
+      <!-- Footer links --->
+      <div class="row text-center text-md-left mt-3 pb-3">
 
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="btn-floating" href="#multi-item-1" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-1" data-slide="next"><i
-        class="fas fa-chevron-right"></i></a>
-  </div>
-  <!--/.Controls-->
+        <!-- Grid column --->
+        <div class="col-md-3 col-lg-3 col-xl-3 mr-auto mt-3">
 
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#multi-item-1" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-1" data-slide-to="1"></li>
-    <li data-target="#multi-item-1" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
+          <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
 
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
+          <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
 
-    <!--First slide-->
-    <div class="carousel-item active">
+            consectetur
 
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="s">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-         </a>
+            adipisicing elit.</p>
+
         </div>
-      </div>
 
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
+        <!-- Grid column --->
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column --->
+        <div class="col-md-2 col-lg-2 col-xl-2 mr-auto mt-3">
+
+          <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+
+          <p>
+
+            <a href="#!">MDBootstrap</a>
+
+          </p>
+
+          <p>
+
+            <a href="#!">MDWordPress</a>
+
+          </p>
+
+          <p>
+
+            <a href="#!">BrandFlow</a>
+
+          </p>
+
+          <p>
+
+            <a href="#!">Bootstrap Angular</a>
+
+          </p>
+
         </div>
-      </div>
 
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
+        <!-- Grid column --->
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column --->
+        <div class="col-md-3 col-lg-2 col-xl-2 mr-auto mt-3">
+
+          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+
+          <p>
+
+            <a href="#!">Your Account</a>
+
+          </p>
+
+          <p>
+
+            <a href="#!">Become an Affiliate</a>
+
+          </p>
+
+          <p>
+
+            <a href="#!">Shipping Rates</a>
+
+          </p>
+
+          <p>
+
+            <a href="#!">Help</a>
+
+          </p>
+
         </div>
-      </div>
 
-    </div>
-    <!--/.First slide-->
+        <!-- Third column --->
+        <hr class="w-100 clearfix d-md-none">
 
-    <!--Second slide-->
-    <div class="carousel-item">
+        <!-- Grid column --->
+        <div class="col-md-4 col-lg-3 col-xl-3 mr-auto mt-3">
 
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+
+          <p>
+
+            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+
+          <p>
+
+            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+
+          <p>
+
+            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+
+          <p>
+
+            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+
         </div>
+        <!-- Grid column --->
+
       </div>
+      <!-- Footer links --->
 
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
+      <hr>
+
+      <div class="row py-3 d-flex align-items-center">
+
+        <!-- Grid column --->
+        <div class="col-md-7 col-lg-8">
+
+          <!-- Copyright --->
+          <p class="text-center text-md-left grey-text">
+
+            © 2019 Copyright: <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> MDBootstrap.com
+
+            </a>
+
+          </p>
+          <!-- Copyright --->
+
         </div>
-      </div>
+        <!-- Grid column --->
 
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
+        <!-- Grid column --->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+
+          <!-- Social buttons --->
+          <div class="social-section text-center mr-auto text-md-left">
+
+            <ul class="list-unstyled list-inline">
+
+              <li class="list-inline-item">
+
+                <a class="btn-floating btn-sm rgba-white-slight">
+
+                  <i class="fab fa-facebook-f"></i>
+
+                </a>
+
+              </li>
+
+              <li class="list-inline-item">
+
+                <a class="btn-floating btn-sm rgba-white-slight">
+
+                  <i class="fab fa-twitter"></i>
+
+                </a>
+
+              </li>
+
+              <li class="list-inline-item">
+
+                <a class="btn-floating btn-sm rgba-white-slight">
+
+                  <i class="fab fa-google-plus-g"></i>
+
+                </a>
+
+              </li>
+
+              <li class="list-inline-item">
+
+                <a class="btn-floating btn-sm rgba-white-slight">
+
+                  <i class="fab fa-linkedin-in"></i>
+
+                </a>
+
+              </li>
+
+            </ul>
+
           </div>
-          </a>
+          <!-- Social buttons --->
+
         </div>
-      </div>
+        <!-- Grid column --->
 
-    </div>
-    <!--/.Second slide-->
-
-    <!--Third slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
       </div>
 
     </div>
-    <!--/.Third slide-->
 
-  </div>
-  <!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
-
-<!-- Entertainment Heading -->
-<br>
-<nav class="navbar navbar-dark stylish-color-dark justify-content-center">
-  <a class="navbar-brand" href="./entertainment.html">Entertainment</a>
-</nav>
-<!-- Entertainment Heading -->
-
-
-<!--Carousel Wrapper-->
-<div id="multi-item-2" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="btn-floating" href="#multi-item-2" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-2" data-slide="next"><i
-        class="fas fa-chevron-right"></i></a>
-  </div>
-  <!--/.Controls-->
-
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#multi-item-2" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-2" data-slide-to="1"></li>
-    <li data-target="#multi-item-2" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-
-    <!--First slide-->
-    <div class="carousel-item active">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="s">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-         </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.First slide-->
-
-    <!--Second slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Second slide-->
-
-    <!--Third slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Third slide-->
-
-  </div>
-  <!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
-
-
-
-<!-- Lifestyle Heading -->
-<br>
-<nav class="navbar navbar-dark stylish-color-dark justify-content-center">
-  <a class="navbar-brand" href="./lifestyle.html">Lifestyle</a>
-</nav>
-<!-- Lifestyle Heading -->
-
-
-<!--Carousel Wrapper-->
-<div id="multi-item-3" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="btn-floating" href="#multi-item-3" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-3" data-slide="next"><i
-        class="fas fa-chevron-right"></i></a>
-  </div>
-  <!--/.Controls-->
-
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#multi-item-3" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-3" data-slide-to="1"></li>
-    <li data-target="#multi-item-3" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-
-    <!--First slide-->
-    <div class="carousel-item active">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="s">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-         </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.First slide-->
-
-    <!--Second slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Second slide-->
-
-    <!--Third slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Third slide-->
-
-  </div>
-  <!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
-
-<!-- Sports Heading -->
-<br>
-<nav class="navbar navbar-dark stylish-color-dark justify-content-center">
-  <a class="navbar-brand" href="./sports.html">Sports</a>
-</nav>
-<!-- Sports Heading -->
-
-
-<!--Carousel Wrapper-->
-<div id="multi-item-4" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="btn-floating" href="#multi-item-4" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-4" data-slide="next"><i
-        class="fas fa-chevron-right"></i></a>
-  </div>
-  <!--/.Controls-->
-
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#multi-item-4" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-4" data-slide-to="1"></li>
-    <li data-target="#multi-item-4" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-
-    <!--First slide-->
-    <div class="carousel-item active">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="s">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-         </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.First slide-->
-
-    <!--Second slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Second slide-->
-
-    <!--Third slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Third slide-->
-
-  </div>
-  <!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
-
-<!-- Politics Heading -->
-<br>
-<nav class="navbar navbar-dark stylish-color-dark justify-content-center">
-  <a class="navbar-brand" href="./politics.html">Politics</a>
-</nav>
-<!-- Politics Heading -->
-
-
-<!--Carousel Wrapper-->
-<div id="multi-item-5" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-  <!--Controls-->
-  <div class="controls-top">
-    <a class="btn-floating" href="#multi-item-5" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-5" data-slide="next"><i
-        class="fas fa-chevron-right"></i></a>
-  </div>
-  <!--/.Controls-->
-
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#multi-item-5" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-5" data-slide-to="1"></li>
-    <li data-target="#multi-item-5" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-
-    <!--First slide-->
-    <div class="carousel-item active">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="s">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-         </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-            alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.First slide-->
-
-    <!--Second slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Second slide-->
-
-    <!--Third slide-->
-    <div class="carousel-item">
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card mb-2">
-          <a href="#">
-          <img class="card-img-top"
-            src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-              card's content.</p>
-          </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
-    <!--/.Third slide-->
-
-  </div>
-  <!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
-    </div>
-    <!--Main Layout-->
-
-<!-- Double Navigation with fixed SideNav under fixed Navbar -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- End your project here-->
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript" src="js/custom.js"></script>
+  </footer>
+  <!-- Footer --->
+
+  <!-- SCRIPTS --->
+  <!-- JQuery --->
+  <script type="text/javascript" src="../../js/jquery-3.4.1.min.js"></script>
+  <!-- Tooltips --->
+  <script type="text/javascript" src="../../js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript --->
+  <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript --->
+  <script type="text/javascript" src="../../js/mdb.min.js"></script>
+  <script>
+    // MDB Lightbox Init
+    $(function () {
+
+      $("#mdb-lightbox-ui").load("../../mdb-addons/mdb-lightbox-ui.html");
+    });
+
+  </script>
 
 </body>
+
 </html>
